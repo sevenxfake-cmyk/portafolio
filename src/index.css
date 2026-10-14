@@ -1,0 +1,29 @@
+/* PASO 4 de la guía: reseteo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  background-color: #0b0f19;
+  color: #ffffff;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+/* Evita que el navbar sticky tape los títulos en los enlaces internos. */
+section[id] {
+  scroll-margin-top: 88px;
+}

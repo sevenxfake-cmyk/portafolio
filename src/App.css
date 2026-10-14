@@ -1,0 +1,21 @@
+#root {
+  min-height: 100vh;
+}
+
+main {
+  overflow: clip;
+}
+
+/* Las secciones reutilizan este encabezado, como en la guía. */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 2rem;
+  }
+}

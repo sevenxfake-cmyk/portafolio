@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Marcador de foto de perfil">
+  <defs>
+    <radialGradient id="fondo"><stop stop-color="#1d3552"/><stop offset="1" stop-color="#0b0f19"/></radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#fondo)"/>
+  <circle cx="200" cy="150" r="75" fill="#00d8ff" opacity=".8"/>
+  <path d="M58 374c8-96 56-148 142-148s134 52 142 148" fill="#00d8ff" opacity=".7"/>
+  <text x="200" y="389" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white">REEMPLAZAR FOTO</text>
+</svg>
