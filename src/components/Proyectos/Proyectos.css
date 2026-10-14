@@ -118,3 +118,16 @@
   .proyecto-contenido { padding: 1.5rem; }
   .proyecto-imagen img { height: 210px; }
 }
+
+/* Centrar la tarjeta cuando hay un solo proyecto */
+.proyectos-grid {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 600px) {
+  .proyectos-grid {
+    grid-template-columns: 1fr;
+  }
+}
