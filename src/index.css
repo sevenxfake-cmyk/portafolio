@@ -1,29 +1,26 @@
-/* PASO 4 de la guía: reseteo global */
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-:root {
-  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  color-scheme: dark;
+html {
   scroll-behavior: smooth;
+  scroll-padding-top: 88px;
 }
 
 body {
+  margin: 0;
   min-width: 320px;
-  background-color: #0b0f19;
-  color: #ffffff;
+  font-family: 'DM Sans', 'Segoe UI', Arial, sans-serif;
+  color: #1e2928;
+  background: #f7f6f2;
+  -webkit-font-smoothing: antialiased;
 }
 
-button,
-input,
-textarea {
-  font: inherit;
-}
-
-/* Evita que el navbar sticky tape los títulos en los enlaces internos. */
-section[id] {
-  scroll-margin-top: 88px;
-}
+button, input, textarea { font: inherit; }
+a { color: inherit; }
+a:hover { text-decoration: none; }
+img { max-width: 100%; }
+section[id] { scroll-margin-top: 85px; }
+::selection { background: #d8edaa; color: #20372d; }
